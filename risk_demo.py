@@ -15,7 +15,7 @@ NAMES = {f"{S1} (approved)": "số môn đạt HK1", f"{S1} (grade)": "điểm T
          f"{S1} (credited)": "số môn được công nhận"}
 
 
-def load_bundle(path="models/final_model.joblib"):
+def load_bundle(path="final_model.joblib"):
     return joblib.load(path)
 
 
